@@ -8,7 +8,7 @@
 #jobs = [3, 8, 2, 6, 9, 1, 5, 7, 4, 10]
 #workers = 4
 
-# input : [[3, 8, 2], [6, 9, 1], [5, 7], [4,10]]
+# output : [[3, 8, 2], [6, 9, 1], [5, 7], [4,10]]
 
 def static_schedule(jobs , workers):
     n = len(jobs)
