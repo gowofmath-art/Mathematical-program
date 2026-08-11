@@ -29,4 +29,5 @@ console.log(f1(40));
 // 1. Array.from(...) 生成 $1 \dots \lfloor\sqrt{n}\rfloor$ 的陣列。
 // 2. flatMap(...) 遇到能整除的 $i$，就回傳成對陣列 
 // 3. [i, n / i] 並自動展平；否則回傳 []。
-// 4. new Set(...) 過濾完全平方數產生的重複元素。.sort((a, b) => a - b) 做數值遞增排序。
+// 4. new Set(...) 過濾完全平方數產生的重複元素。
+// 5. .sort((a, b) => a - b) 做數值遞增排序。
