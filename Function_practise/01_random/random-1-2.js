@@ -3,7 +3,7 @@
 // 這個做法反而較為慢一點
 // Array.from() 會有語法糖開銷，每次產生元素都要觸發一次箭頭函式的呼叫，建立完陣列後，還需調用 .join("") 對陣列做第二次走訪才能轉為字串。
 
-const random1Functional = () =>
+const random_1_optimized = () =>
   Array.from({ length: 4 }, () => Math.floor(Math.random() * 10)).join("");
 
-console.log(random1Functional());
+console.log(random_1_optimized());
