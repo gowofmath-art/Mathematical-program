@@ -1,4 +1,4 @@
-# 6.使用蔡勒公式（Zeller's congruence）
+# 使用蔡勒公式（Zeller's congruence）
 # 直接告訴星期幾 (星期日 = 0 依序下去)
 # 在輸出  幾年幾月的月曆
 
